@@ -2,7 +2,7 @@ import { FC } from "react"
 import Head from "next/head"
 import styles from "./Main.module.css"
 import { Navbar } from "../Navbar"
-export  const MainLayout : FC =  ({ children }) =>  {
+export  const MainLayout : FC <any> =  ({ children }) =>  {
   return (
     <div>
         <Head>
