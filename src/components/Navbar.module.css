@@ -1,0 +1,7 @@
+.menu-container {
+padding: 20px 30%;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
